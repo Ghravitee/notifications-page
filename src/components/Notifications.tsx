@@ -25,7 +25,7 @@ export function Notification({
   return (
     <div
     
-      className={`${!read ? "bg-Light-Grayish-Blue-1" : ""} p-4 transition-all rounded-md`}
+      className={`${!read ? "bg-Grayish-Blue" : ""} p-4 transition-all rounded-md`}
     >
       <div className="flex items-start gap-2 w-full ">
         {/* user image  */}
@@ -45,7 +45,7 @@ export function Notification({
               <span className="md:text-sm">{action}</span>
 
               {action === "reacted to your recent post" && (
-                <span className="cursor-pointer text-gray-500 font-bold hover:text-Blue md:text-sm">
+                <span className="cursor-pointer text-gray-500 font-extrabold hover:text-Blue md:text-sm">
                   {post}
                 </span>
               )}

@@ -13,7 +13,7 @@ export default function Home() {
     setNotifications(notifications.map((notification) => ({...notification, read: true })));
   }
   return (
-   <main className="bg-Grayish-Blue min-h-screen w-full flex items-center justify-center sm:p-16">
+   <main className="bg-Very-Light-Grayish-Blue min-h-screen w-full flex items-center justify-center sm:p-16">
       <div className="max-w-2xl mx-auto pt-8 bg-White rounded-md px-4 sm:px-6">
         <div className="flex justify-between items-center mb-6 gap-6">
           <h1 className="text-2xl flex gap-3 items-center font-semibold">Notifications
